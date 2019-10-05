@@ -37,7 +37,7 @@ maiúsculas ou minúsculas. A classe correspondente não pode ter propriedades c
 nomes que se distingam entre si apenas por terem letras maiúsculas ou
 minúsculas.
 
-Implemente uma _cache_ de modo a que o trabalho de leitura de metadata via Replexão
+Implemente uma _cache_ de modo a que o trabalho de leitura de metadata via Reflexão
 não seja repetido. Por exemplo, no parsing de um array de `Student` as propriedades
 a serem afectadas só devem ser procuradas 1 vez.
 
