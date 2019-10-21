@@ -67,7 +67,7 @@ correspondente em JSON (e.g. `[JsonProperty(“birth_date”)`]). Altere
 `JsonParser` para implementar o comportamento especificado e valide com testes
 unitários.
 
-Algumas classes como `DateTime`, `Gui` ou `Uri` não podem ser inicializadas
+Algumas classes como `DateTime`, `Guid` ou `Uri` não podem ser inicializadas
 através das suas propriedades. Para tal, deve disponibilizar uma anotação
 `JsonConvert` que permita estabelecer de que forma o `JsonParser` deve
 instanciar estas classes. Por exemplo uma propriedade `DueDate` do tipo
@@ -85,4 +85,4 @@ conversor para qualquer tipo de classe. `JsonParser` deve passar a ter em
 consideração esta anotação na inicialização das respectivas propriedades.
 
 Valide a sua implementação com testes unitários adicionais criando nas entidades
-de domínio casos de propriedades de tipo `DateTime`, `Gui` e `Uri`.
+de domínio casos de propriedades de tipo `DateTime`, `Guid` e `Uri`.
