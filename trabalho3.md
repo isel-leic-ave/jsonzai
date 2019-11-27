@@ -16,6 +16,7 @@ Implemente o método `IEnumerable SequenceFrom(string filename, Type klass)` que
 sequência _lazy_ para os dados JSON contidos no ficheiro `filename`.
 Este método assume que o ficheiro fonte tem como elemento raíz um _array_ JSON, dando excepção
 caso o elemento raíz seja de outro tipo JSON, como por exemplo um objecto.
+
 Realize um teste unitário que confirme o comportamento lazy deste método.
 Por exemplo, actualize o conteúdo do ficheiro fonte após a obtenção da sequência dada por 
 `SequenceFrom` e observe o novo conteúdo quando iterar sobre a sequência resultante.
